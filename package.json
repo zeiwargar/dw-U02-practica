@@ -1,0 +1,23 @@
+{
+  "name": "dw-u02-practica",
+  "version": "1.0.0",
+  "type":"module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "git+https://github.com/zeiwargar/dw-U02-practica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeiwargar/dw-U02-practica/issues"
+  },
+  "homepage": "https://github.com/zeiwargar/dw-U02-practica#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

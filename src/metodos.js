@@ -1,3 +1,9 @@
+//para node
+import promptSync from "prompt-sync";
+const prompt = promptSync();
+//fin de node
+
+
 export function mostrarMenuPrincipal(){
     console.log("=== Menú ===");
     console.log("1: Buscar");
@@ -65,9 +71,9 @@ export function modificarPokemon(datos) {
       return;
     }
   
-    const nombre = prompt(`Nombre (${pokemon.nombre}):`);
-    const tipo = prompt(`Tipo (${pokemon.tipo}):`);
-    const habilidad = prompt(`Habilidad (${pokemon.habilidad}):`);
+    const nombre = prompt(`Nombre`, pokemon.nombre);
+    const tipo = prompt(`Tipo`, pokemon.tipo);
+    const habilidad = prompt(`Habilidad`, pokemon.habilidad);
   
     if (nombre?.trim()) pokemon.nombre = nombre.trim();
     if (tipo?.trim()) pokemon.tipo = tipo.trim();
